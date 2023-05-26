@@ -973,10 +973,20 @@ footer {
 		font-size: 14px;
 	}
 
+	.footer_content{
+		flex-direction: column;
+		justify-content: center;
+	}
+
 	.main .main_title * {
 		font-size: 34px;
 	}
-}.box {
+
+	.contact_block .contact_title * {
+		font-size: 34px;
+	}
+}
+.box {
     -webkit-box-shadow: 0 0 10px #cecece;
             box-shadow: 0 0 10px #cecece;
     -webkit-transition: all .5s;
